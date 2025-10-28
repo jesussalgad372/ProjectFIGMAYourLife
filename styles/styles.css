@@ -1,6 +1,7 @@
 body{
     background-image: url(/assets/background.jpg);
-    background-size: 1920px;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 p{
@@ -12,4 +13,12 @@ p{
 .center-item{
     display: flex;
     justify-content: center;
+}
+img{ 
+    width: 200px;
+}
+
+.img-con {
+    display: flex;
+    justify-content: space-evenly;
 }
